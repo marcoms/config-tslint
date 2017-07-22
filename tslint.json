@@ -18,7 +18,6 @@
 			80
 		],
 		"no-duplicate-variable": true,
-		"no-empty": true,
 		"no-eval": true,
 		"whitespace": [
 			true,
@@ -55,7 +54,6 @@
 		"no-arg": true,
 		"no-switch-case-fall-through": true,
 		"no-magic-numbers": true,
-		"no-unused-new": true,
 		"no-construct": true,
 		"no-string-throw": true,
 		"no-unused-expression": true,
@@ -65,7 +63,8 @@
 		"variable-name": [
 			true,
 			"check-format",
-			"allow-leading-underscore"
+			"allow-leading-underscore",
+			"allow-pascal-case"
 		],
 		"eofline": true,
 		"linebreak-style": [
